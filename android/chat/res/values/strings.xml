@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AllJoyn Chat Sample for Android</string>
+    <string name="params_rpm">RPM</string>
+    <string name="params_coolant_temp">Coolant Temp</string>
+    <string name="params_speed">Speed</string>
 </resources>
