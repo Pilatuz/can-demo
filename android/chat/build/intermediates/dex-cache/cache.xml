@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="D:\!workspace\alljoyn-android\chat\app\build\intermediates\pre-dexed\debug\alljoyn-27c212b32a3267727c6f36fbbaa2b4f7e39234c2.jar"
+        jar="D:\!workspace\alljoyn-android\chat\app\libs\alljoyn.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1195a302e67ba152458008033883ef45365e2a41"/>
+
+</pre-dex-items>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/controller"-->
+                <!--android:orientation="vertical"-->
+                <!--android:gravity="top"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="5dip">-->
+                <!--</View>-->
+
+               <!-- <Button
+                    android:id="@+id/hostSetName"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Set Channel Name"
+                    android:enabled="true"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/hostStart"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Start Channel"
+                    />
+
+                <Button
+                    android:id="@+id/hostStop"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Stop Channel"
+                    />
+
+                <Button
+                    android:id="@+id/hostQuit"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Quit Application"
+                    />-->
+
+                <!--<TableLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<TableRow android:gravity="center">-->
+                        <!--<TextView-->
+                            <!--android:text="Channel Name:  "-->
+                            <!--/>-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/hostChannelName"-->
+                            <!--android:text="1234567890"-->
+                            <!--/>-->
+                    <!--</TableRow>-->
+
+                    <!--<TableRow android:gravity="center">-->
+                        <!--<TextView-->
+                            <!--android:text="Channel Status:  "-->
+                            <!--/>-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/hostChannelStatus"-->
+                            <!--android:text="1234567890"-->
+                            <!--/>-->
+                    <!--</TableRow>-->
+                <!--</TableLayout>-->
+
+            <!--</LinearLayout>-->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/label_rpm"
+                    style="@style/Label"
+                    android:text="@string/params_rpm"/>
+
+                <TextView
+                    android:id="@+id/rpm"
+                    style="@style/Params"
+                    android:layout_below="@id/label_rpm"
+                    android:text="0"/>
+
+                <TextView
+                    android:id="@+id/label_coolant_temp"
+                    style="@style/Label"
+                    android:layout_below="@id/rpm"
+                    android:text="@string/params_coolant_temp"/>
+
+                <TextView
+                    android:id="@+id/coolant_temp"
+                    style="@style/Params"
+                    android:layout_below="@id/label_coolant_temp"
+                    android:text="0"/>
+
+                <TextView
+                    android:id="@+id/label_speed"
+                    style="@style/Label"
+                    android:layout_below="@id/coolant_temp"
+                    android:text="@string/params_speed"/>
+
+                <TextView
+                    android:id="@+id/speed"
+                    style="@style/Params"
+                    android:layout_below="@id/label_speed"
+                    android:text="0"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/set_channel_name"
+        android:title="Set channel name" />
+
+    <item android:id="@+id/start_channel"
+        android:title="Start channel" />
+
+    <item android:id="@+id/stop_channel"
+        android:title="Stop channel" />
+
+    <item android:id="@+id/quit_application"
+        android:title="Quit application" />
+
+    <item android:id="@+id/open_debug"
+        android:title="Debug" />
+
+</menu>

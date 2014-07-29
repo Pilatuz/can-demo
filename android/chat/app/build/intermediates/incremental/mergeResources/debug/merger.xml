@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="D:\!workspace\alljoyn-android\chat\app\src\main\res" >
+            <file
+                name="icon"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\drawable\icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_tab_host"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\drawable\ic_tab_host.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_tab_host_disabled"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\drawable\ic_tab_host_disabled.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_tab_host_enabled"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\drawable\ic_tab_host_enabled.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_tab_use"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\drawable\ic_tab_use.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_tab_use_disabled"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\drawable\ic_tab_use_disabled.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_tab_use_enabled"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\drawable\ic_tab_use_enabled.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="alljoynerrordialog"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\alljoynerrordialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="host"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\host.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="hostnamedialog"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\hostnamedialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="hoststartdialog"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\hoststartdialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="hoststopdialog"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\hoststopdialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="use"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\use.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="usejoindialog"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\usejoindialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="useleavedialog"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\layout\useleavedialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="params_coolant_temp" >Coolant Temp
+                </string>
+                <string name="params_rpm" >RPM
+                </string>
+                <string name="app_name" >AllJoyn Chat Sample for Android
+                </string>
+                <string name="params_speed" >Speed
+                </string>
+            </file>
+            <file
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\values\style.xml"
+                qualifiers="" >
+
+                <style name="Params" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textColor">
+#000000
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceMedium
+                    </item>
+                </style>
+
+                <style name="Label" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textColor">
+#ff0099cc
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceMedium
+                    </item>
+                    <item name="android:paddingTop">
+12dp
+                    </item>
+                </style>
+            </file>
+            <file
+                name="menu"
+                path="D:\!workspace\alljoyn-android\chat\app\src\main\res\menu\menu.xml"
+                qualifiers=""
+                type="menu" />
+        </source>
+        <source path="D:\!workspace\alljoyn-android\chat\app\build\generated\res\rs\debug" />
+        <source path="D:\!workspace\alljoyn-android\chat\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\!workspace\alljoyn-android\chat\app\src\debug\res" />
+    </dataSet>
+
+</merger>
